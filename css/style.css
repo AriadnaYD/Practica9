@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+article{
+    background-color:#d6ccc2;
+}
+nav{
+    background-color: #edede9;
+}
+header{
+    background-color:#d6ccc2;
+}
+div{
+    background-color:#d6ccc2;
+}
+/* Estilos para los botones de navegación del carrusel */
+.carousel-control-prev, .carousel-control-next {
+    background-color: #202020; /* Cambia el color de fondo de los botones a tu elección */
+    border-color: #202020; /* Cambia el color del borde de los botones a tu elección */
+    color: #FFFFFF; /* Cambia el color del icono de flecha a tu elección */
+    font-size: 24px; /* Cambia el tamaño del icono de flecha a tu elección */
+    border-radius: 10%; /* Aplica un borde redondeado a los botones */
+    width: 40px; /* Cambia el ancho de los botones a tu elección */
+    height: 40px; /* Cambia la altura de los botones a tu elección */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: transparent; /* Cambia el fondo del icono de flecha a transparente */
+}
+
+/* Cambia el color de los botones al pasar el mouse por encima */
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #202020; /* Cambia el color de fondo al pasar el mouse */
+    border-color: #202020; /* Cambia el color del borde al pasar el mouse */
+}
+footer{
+    background-color: #edede9;
+    text-align: center;
+}
